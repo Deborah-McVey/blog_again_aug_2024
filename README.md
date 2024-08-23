@@ -1,5 +1,6 @@
 don't change body to rich text.
 don't use helper for submit_or_cancel.
+not doing the email notifications.
 
 Rails version: 7.1.4
 Ruby version: ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
@@ -25,3 +26,6 @@ rails g controller users
 rails g controller comments
 
 rails g controller sessions
+
+rails active_storage:install
+uncomment gem 'image_processing'

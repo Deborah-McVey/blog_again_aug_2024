@@ -1,4 +1,4 @@
-User.create email: 'mary@example.com', password: 'guessit'
+User.create email: 'mary@example.com', password: 'guessit', password_confirmation: 'guessit'
 
 Category.create [
     {name: 'Programming'},
